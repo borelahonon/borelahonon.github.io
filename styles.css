@@ -450,6 +450,38 @@ section {
     align-items: center;
 }
 
+.hero-about .contact-info {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+.hero-about .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #4a5568;
+}
+
+.hero-about .contact-item i {
+    color: #0e4e78;
+    margin-right: 0.8rem;
+    width: 20px;
+    text-align: center;
+}
+
+.hero-about .contact-item a {
+    color: #0e4e78;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.hero-about .contact-item a:hover {
+    color: #1a5a8a;
+    text-decoration: underline;
+}
+
 .image-placeholder {
     width: 200px;
     height: 200px;
@@ -1107,6 +1139,15 @@ section {
         margin-top: 2rem;
     }
 
+    .hero-about .contact-info {
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
+    .hero-about .contact-item {
+        font-size: 0.95rem;
+    }
+
     .cv-content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -1190,6 +1231,16 @@ section {
 
     .hero-about .about-text p {
         font-size: 1rem;
+    }
+
+    .hero-about .contact-info {
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
+    .hero-about .contact-item {
+        font-size: 0.9rem;
+        margin-bottom: 0.8rem;
     }
 
     .hero-title {
