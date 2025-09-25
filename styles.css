@@ -384,6 +384,72 @@ section {
     transform: scale(1.05);
 }
 
+/* Hero About Section */
+.hero-about {
+    background: white;
+    padding: 60px 0;
+    margin-top: 0;
+}
+
+.hero-about .about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.hero-about .about-text {
+    text-align: left;
+}
+
+.hero-about .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4a5568;
+    margin-bottom: 1.5rem;
+}
+
+.hero-about .research-interests {
+    margin-top: 2rem;
+}
+
+.hero-about .research-interests h3 {
+    color: #0e4e78;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.hero-about .interests-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.hero-about .interest-tag {
+    background: linear-gradient(135deg, #0e4e78, #1a5a8a);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+}
+
+.hero-about .interest-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(14, 78, 120, 0.3);
+}
+
+.hero-about .about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .image-placeholder {
     width: 200px;
     height: 200px;
@@ -1022,6 +1088,25 @@ section {
         margin-top: 2rem;
     }
 
+    .hero-about {
+        padding: 40px 0;
+    }
+
+    .hero-about .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .hero-about .about-text {
+        text-align: center;
+    }
+
+    .hero-about .about-image {
+        margin-top: 2rem;
+    }
+
     .cv-content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -1093,6 +1178,18 @@ section {
 
     .about-image {
         margin-top: 1.5rem;
+    }
+
+    .hero-about {
+        padding: 30px 0;
+    }
+
+    .hero-about .about-content {
+        padding: 0 0.5rem;
+    }
+
+    .hero-about .about-text p {
+        font-size: 1rem;
     }
 
     .hero-title {
