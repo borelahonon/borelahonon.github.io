@@ -1007,10 +1007,18 @@ section {
     .about-content {
         grid-template-columns: 1fr;
         gap: 2rem;
+        text-align: center;
     }
 
     .about {
         padding-top: 30px;
+    }
+
+    .about-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
     }
 
     .cv-content {
@@ -1076,6 +1084,14 @@ section {
 
     .about {
         padding-top: 20px;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-image {
+        margin-top: 1.5rem;
     }
 
     .hero-title {
