@@ -181,6 +181,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const hero = document.querySelector('.hero');
     if (hero) {
         hero.style.transform = 'none';
+        hero.style.setProperty('transform', 'none', 'important');
+    }
+});
+
+// Additional fix for scroll events
+window.addEventListener('scroll', () => {
+    const hero = document.querySelector('.hero');
+    if (hero) {
+        hero.style.transform = 'none';
+        hero.style.setProperty('transform', 'none', 'important');
     }
 });
 
