@@ -176,25 +176,23 @@ function typeWriter(element, text, speed = 100) {
     type();
 }
 
-// Initialize typing effect on page load
+// Reset hero transform to fix spacing issue
 document.addEventListener('DOMContentLoaded', () => {
-    const heroTitle = document.querySelector('.hero-title');
-    if (heroTitle) {
-        const originalText = heroTitle.textContent;
-        // Uncomment the line below to enable typing effect
-        // typeWriter(heroTitle, originalText, 150);
+    const hero = document.querySelector('.hero');
+    if (hero) {
+        hero.style.transform = 'none';
     }
 });
 
-// Parallax effect for hero section (subtle)
-window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-    const hero = document.querySelector('.hero');
-    if (hero) {
-        const rate = scrolled * -0.5;
-        hero.style.transform = `translateY(${rate}px)`;
-    }
-});
+// Parallax effect for hero section (disabled to fix spacing issue)
+// window.addEventListener('scroll', () => {
+//     const scrolled = window.pageYOffset;
+//     const hero = document.querySelector('.hero');
+//     if (hero) {
+//         const rate = scrolled * -0.5;
+//         hero.style.transform = `translateY(${rate}px)`;
+//     }
+// });
 
 // Form validation for contact form (if added later)
 function validateEmail(email) {
