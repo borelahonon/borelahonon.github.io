@@ -1,0 +1,25 @@
+{
+    "name": "Borel Ahonon - PhD Candidate in Finance",
+    "short_name": "Borel Ahonon",
+    "description": "Academic portfolio of Borel Ahonon, PhD Candidate in Finance at McGill University",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2563eb",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "images/borel.jpeg",
+            "sizes": "192x192",
+            "type": "image/jpeg",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "education",
+        "academic",
+        "research"
+    ],
+    "lang": "en",
+    "dir": "ltr"
+}
