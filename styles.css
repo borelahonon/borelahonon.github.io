@@ -172,8 +172,8 @@ body {
 }
 
 .profile-image {
-    width: 280px;
-    height: 350px;
+    width: 320px;
+    height: 400px;
     object-fit: cover;
     object-position: center;
     box-shadow: 0 10px 30px rgba(14, 78, 120, 0.2);
@@ -330,8 +330,8 @@ body {
     }
 
     .profile-image {
-        width: 220px;
-        height: 280px;
+        width: 260px;
+        height: 320px;
     }
 
     .container {
@@ -350,8 +350,8 @@ body {
     }
 
     .profile-image {
-        width: 200px;
-        height: 250px;
+        width: 240px;
+        height: 300px;
     }
 
     .hero-links {
