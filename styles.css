@@ -43,7 +43,7 @@ body {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #9E0918;
+    color: #0e4e78;
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #9E0918;
+    color: #0e4e78;
 }
 
 .nav-toggle {
@@ -121,7 +121,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 2.5rem;
-    color: #9E0918;
+    color: #0e4e78;
 }
 
 .hero-description {
@@ -135,7 +135,29 @@ body {
 
 .hero-description strong {
     font-weight: 600;
-    color: #9E0918;
+    color: #0e4e78;
+}
+
+.research-interests {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-left: 4px solid #0e4e78;
+    border-radius: 4px;
+}
+
+.research-interests-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #0e4e78;
+    margin-bottom: 0.8rem;
+}
+
+.research-interests-text {
+    color: #4a5568;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
 }
 
 .hero-contact {
@@ -157,17 +179,17 @@ body {
 }
 
 .hero-links a {
-    color: #9E0918;
+    color: #0e4e78;
     text-decoration: none;
     font-weight: 500;
     padding: 0.5rem 1rem;
-    border: 1px solid #9E0918;
+    border: 1px solid #0e4e78;
     border-radius: 4px;
     transition: all 0.3s ease;
 }
 
 .hero-links a:hover {
-    background: #9E0918;
+    background: #0e4e78;
     color: white;
 }
 
@@ -176,13 +198,11 @@ body {
     height: 400px;
     object-fit: cover;
     object-position: center;
-    box-shadow: 0 10px 30px rgba(14, 78, 120, 0.2);
-    border: 3px solid #9E0918;
     transition: transform 0.3s ease;
     display: block;
     margin: 0 auto;
     border-radius: 8px;
-    filter: brightness(1.2) contrast(1.1);
+    filter: brightness(1.6) contrast(1.1);
 }
 
 .profile-image:hover {
@@ -200,7 +220,7 @@ body {
     font-weight: 700;
     text-align: center;
     margin-bottom: 3rem;
-    color: #9E0918;
+    color: #0e4e78;
 }
 
 .research-section {
@@ -212,7 +232,7 @@ body {
     font-weight: 600;
     margin-bottom: 2rem;
     color: #2d3748;
-    border-bottom: 2px solid #9E0918;
+    border-bottom: 2px solid #0e4e78;
     padding-bottom: 0.5rem;
 }
 
@@ -233,7 +253,7 @@ body {
 .paper-title {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #9E0918;
+    color: #0e4e78;
     margin-bottom: 0.5rem;
     line-height: 1.4;
 }
@@ -253,7 +273,7 @@ body {
 .paper-status {
     display: inline-block;
     background: #e6f2ff;
-    color: #9E0918;
+    color: #0e4e78;
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     font-size: 0.9rem;
