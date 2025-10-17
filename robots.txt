@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-# Ce site a été déplacé vers borelahonon.github.io
-# This site has been moved to borelahonon.github.io
+# Sitemap
+Sitemap: https://borelahonon.github.io/sitemap.xml
