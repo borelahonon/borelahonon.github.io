@@ -6,10 +6,4 @@
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
-    <url>
-        <loc>https://borelahonon.github.io/BA_cv.pdf</loc>
-        <lastmod>2025-10-17T16:00:00+00:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
 </urlset>
