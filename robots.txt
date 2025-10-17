@@ -1,5 +1,13 @@
 User-agent: *
 Allow: /
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+Allow: /images/
+Allow: /BA_cv.pdf
+Allow: /favicon.ico
+Allow: /manifest.json
+Allow: /browserconfig.xml
 
 # Sitemap
 Sitemap: https://borelahonon.github.io/sitemap.xml
