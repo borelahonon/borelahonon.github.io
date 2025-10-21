@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://borelahonon.github.io/sitemap.xml
