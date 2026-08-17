@@ -1,6 +1,6 @@
 # Borel E. S. Ahonon - Academic Portfolio
 
-A modern, responsive academic portfolio website for PhD Candidate in Finance at McGill University.
+A modern, responsive academic portfolio website for Assistant Professor of Finance at Université Laval.
 
 ## Features
 
@@ -145,6 +145,6 @@ If you have any questions or need help customizing the portfolio, please open an
 ---
 
 **Borel E. S. Ahonon**  
-PhD Candidate in Finance  
-McGill University  
-Email: borel.ahonon@mail.mcgill.ca
+Assistant Professor of Finance  
+Université Laval  
+Email: borel.ahonon@fsa.ulaval.ca

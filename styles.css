@@ -43,7 +43,7 @@ body {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #0e4e78;
+    color: #86272D;
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #0e4e78;
+    color: #86272D;
 }
 
 .nav-toggle {
@@ -121,7 +121,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 2.5rem;
-    color: #0e4e78;
+    color: #86272D;
 }
 
 .hero-description {
@@ -135,21 +135,21 @@ body {
 
 .hero-description strong {
     font-weight: 600;
-    color: #0e4e78;
+    color: #86272D;
 }
 
 .research-interests {
     margin: 2rem 0;
     padding: 1.5rem;
     background: #f8f9fa;
-    border-left: 4px solid #0e4e78;
+    border-left: 4px solid #86272D;
     border-radius: 4px;
 }
 
 .research-interests-title {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #0e4e78;
+    color: #86272D;
     margin-bottom: 0.8rem;
 }
 
@@ -179,17 +179,17 @@ body {
 }
 
 .hero-links a {
-    color: #0e4e78;
+    color: #86272D;
     text-decoration: none;
     font-weight: 500;
     padding: 0.5rem 1rem;
-    border: 1px solid #0e4e78;
+    border: 1px solid #86272D;
     border-radius: 4px;
     transition: all 0.3s ease;
 }
 
 .hero-links a:hover {
-    background: #0e4e78;
+    background: #86272D;
     color: white;
 }
 
@@ -220,7 +220,7 @@ body {
     font-weight: 700;
     text-align: center;
     margin-bottom: 3rem;
-    color: #0e4e78;
+    color: #86272D;
 }
 
 .research-section {
@@ -232,7 +232,7 @@ body {
     font-weight: 600;
     margin-bottom: 2rem;
     color: #2d3748;
-    border-bottom: 2px solid #0e4e78;
+    border-bottom: 2px solid #86272D;
     padding-bottom: 0.5rem;
 }
 
@@ -253,7 +253,7 @@ body {
 .paper-title {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #0e4e78;
+    color: #86272D;
     margin-bottom: 0.5rem;
     line-height: 1.4;
 }
@@ -272,8 +272,8 @@ body {
 
 .paper-status {
     display: inline-block;
-    background: #e6f2ff;
-    color: #0e4e78;
+    background: #fde8ea;
+    color: #86272D;
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     font-size: 0.9rem;

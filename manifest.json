@@ -1,11 +1,11 @@
 {
-    "name": "Borel Ahonon - PhD Candidate in Finance",
+    "name": "Borel Ahonon - Assistant Professor of Finance",
     "short_name": "Borel Ahonon",
-    "description": "Academic portfolio of Borel Ahonon, PhD Candidate in Finance at McGill University",
+    "description": "Academic portfolio of Borel Ahonon, Assistant Professor of Finance at Université Laval",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#2563eb",
+    "theme_color": "#86272D",
     "orientation": "portrait-primary",
     "icons": [
         {
